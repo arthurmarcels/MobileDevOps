@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoAzureOfflineSync"
+             xmlns:conv="clr-namespace:DemoAzureOfflineSync.Converters;assembly=DemoAzureOfflineSync"
+             x:Class="DemoAzureOfflineSync.Views.DemoAzureOfflineSyncPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:IsLocalConverter x:Key="isLocalConverter"></conv:IsLocalConverter>
+            <conv:InverseBooleanConverter x:Key="inverseBooleanConverter"></conv:InverseBooleanConverter>
+            <conv:FontPendingColorConverter x:Key="fontPendingColorConverter"></conv:FontPendingColorConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Padding="20" Orientation="Vertical">
+    </StackLayout>
+</ContentPage>
