@@ -11,6 +11,7 @@ namespace DemoAzureOfflineSync
             InitializeComponent();
             //Startup startup = new Startup("NOMBRE","CORREO", 1, 4);
             //startup.Init();
+			MainPage = new NavigationPage(new DemoAzureOfflineSyncPage());
         }
 
         protected override void OnStart()
